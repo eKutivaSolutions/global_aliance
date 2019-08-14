@@ -616,16 +616,16 @@ HEADER AND MENUS
             transform: rotate(125deg);
         }
 
-        .navbar-mini:not(.hidden) + .navbar-main .navbar-header:before {
-            position: absolute;
-            content: '';
-            background-color: #fff;
-            height: 22px;
-            width: 6000px;
-            right: 0;
-            top: 0px;
-            z-index: 0;
-        }
+        /*.navbar-mini:not(.hidden) + .navbar-main .navbar-header:before {*/
+        /*    position: absolute;*/
+        /*    content: '';*/
+        /*    background-color: #fff;*/
+        /*    height: 22px;*/
+        /*    width: 6000px;*/
+        /*    right: 0;*/
+        /*    top: 0px;*/
+        /*    z-index: 0;*/
+        /*}*/
 }
 
 .navbar-big-logo .navbar-mini:not(.hidden) + .navbar-main .navbar-header {
