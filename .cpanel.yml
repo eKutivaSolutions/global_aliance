@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/wgacoec4/public_html/test-site/
+    - export DEPLOYPATH=/home/wgacoec4/public_html/
     - /bin/cp -R content $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
     - /bin/cp -R HTWF $DEPLOYPATH
